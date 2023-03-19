@@ -7,6 +7,7 @@ The terraform code is used to create
 4. Security Groups for Fargate and ALB
 5. Elastic Compute Registry
 6. ECS Cluster, task definition eith task execution policy and service with launch type as Fargate
+<img src=./images/terr.png>
 
 AWS CodePipeline is used for automated deployment
 1. Create CodeBuild Project with source as GitHub. (make sure the privilege flag is ticked to build images using docker)
