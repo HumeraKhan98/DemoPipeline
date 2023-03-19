@@ -13,3 +13,4 @@ AWS CodePipeline is used for automated deployment
 1. Create CodeBuild Project with source as GitHub. (make sure the privilege flag is ticked to build images using docker)
 2. Add the policy 'AmazonEC2ContainerRegistryPowerUser' to the role created during the CodeBuild project which helps in connecting to the ECR
 3. Create the Pipeline with Source as GitHub, CodeBuild as the build tool and ECS as the deployment destination.
+<img src=./images/pipeline.png>
